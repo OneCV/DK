@@ -49,6 +49,7 @@ int main(int argc, char *argv[])
    CvSetExamData ExampleSet;
    
    printf("This is OneCV, DK DK!\n");
+   printf("This is OneCV collaborator, DK DK!\n");
    
    //Open uploaded setting data
    file1 = fopen( argv[1], "rb" );
