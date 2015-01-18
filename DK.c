@@ -48,6 +48,8 @@ int main(int argc, char *argv[])
    char strtmp[15];
    CvSetExamData ExampleSet;
    
+   printf("This is OneCV, DK DK!\n");
+   
    //Open uploaded setting data
    file1 = fopen( argv[1], "rb" );
    //Read ExamSet Data
