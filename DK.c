@@ -48,6 +48,7 @@ int main(int argc, char *argv[])
    char strtmp[15];
    CvSetExamData ExampleSet;
    
+   printf("This is ChaoTien, DK DK!\n");
    printf("This is OneCV, DK DK!\n");
    printf("This is OneCV collaborator, DK DK!\n");
    
