@@ -28,10 +28,10 @@ typedef struct CvTag
 typedef struct CvSetExamData
 {
 	char Name[10];
+	int TagNum;
 	CtSize imgSize;
 	CtRect ScanROI;
 	CvTag Tag[10];
-	int TagNum;
 } CvSetExamData;
 
 void ExampleDataSetMaker(char *name);
@@ -49,6 +49,7 @@ int main(int argc, char *argv[])
    CvSetExamData ExampleSet;
    
    printf("This is ChaoTien, DK DK!\n");
+   printf("This is Wonda, DK DK!\n");
    printf("This is OneCV, DK DK!\n");
    printf("This is OneCV collaborator, DK DK!\n");
    
@@ -85,7 +86,7 @@ int main(int argc, char *argv[])
 void ExampleDataSetMaker(char *name)
 {
 	CvSetExamData ExampleSet;
-	memset(&ExampleSet,0,sizeof(CvSetExamData)); // add by Wonda 0117 
+	memset(&ExampleSet,0x00,sizeof(CvSetExamData)); // add by Wonda 0117 
 	FILE *ptr_myfile;
 	strcpy(ExampleSet.Name, name);
 	ExampleSet.imgSize.width = 640;
