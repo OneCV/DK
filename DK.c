@@ -52,6 +52,7 @@ int main(int argc, char *argv[])
    printf("This is Wonda, DK DK!\n");
    printf("This is OneCV, DK DK!\n");
    printf("This is OneCV collaborator, DK DK!\n");
+   printf("This is fork sync test, DK DK!\n");
    
    //Open uploaded setting data
    file1 = fopen( argv[1], "rb" );
